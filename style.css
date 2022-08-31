@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav-item {
+    padding-left: 3%;
+}
+
+.nav-signup-button {
+    width: 120px;
+}
+
+.hero-sub-heading {
+    color: white;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.15rem;
+    padding-bottom: 4px;
+}
+
+.hero-text {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.padding-b-0 {
+    padding-bottom: 0px !important;
+}
+
+.hero-logo-img {
+    width: 100px;
+}
+
+.sponsers img {
+    height: 80px;
+}
+
+.hero2-sub-heading {
+    color: #00F0FF;
+    letter-spacing: 0.05rem;
+    margin-bottom: 0px !important;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.robot-img {
+    margin-top: 7%;
+}
+
+.feature-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.feature {
+    padding: 30px;
+    padding-bottom: 0px;
+    margin: 10px auto;
+    box-shadow: 2px 2px #EBEEF3;
+}
+
+div.feature h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+div.feature p {
+    font-size: 1.2rem;
+}
+
+.review-section {
+    background-color: black;
+}
+
+.card-text-heading {
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+
+.review-card {
+    margin: 5px;
+}
+
+.card-subtitle {
+    margin-bottom: 0px !important;
+}
+
+.review-person-img {
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.review-section-left {
+    padding-right: 100px;
+}
+
+.review-section-text {
+    letter-spacing: 0.2rem;
+}
+
+.lead {
+    color: #D4DCE5;
+}
+
+.review-section-left img {
+    width: 200px;
+    display: block;
+    margin-top: 15px;
+}
+
+.hero3 {
+    background-color: black;
+}
+
+.hero3 img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.hero3-text-heading {
+    padding-top: 100px;
+    font-weight: bold;
+    color: purple;
+}
+
+.hero3-text {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.footer {
+    background-color: #040404;
+    color: white;
+}
+
+.footer-text {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+}
+
+.footer-h5-text {
+    font-size: 1.2rem;
+}
+
+a.btn {
+    width: 170px;
+    font-size: 0.8rem;
+    height: 40px;
+}
+
+.robot-img {
+    width: 50%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: none;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        display: none;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        display: block;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
